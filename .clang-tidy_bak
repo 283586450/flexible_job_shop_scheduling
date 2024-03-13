@@ -1,0 +1,62 @@
+Checks: '-*,readability-identifier-naming,
+		readability-function-size,
+    	readability-braces-around-statements,
+		readability-magic-numbers,
+		misc-unused-parameters,
+		misc-const-correctness,
+		misc-use-anonymous-namespace,
+		modernize-*,
+		modernize-use-nullptr,
+		modernize-replace-auto-ptr,
+		modernize-use-noexcept,
+		modernize-use-override,
+		performance-*,
+		performance-move-const-arg,
+		cppcoreguidelines-pro-type-cstyle-cast,
+		cppcoreguidelines-pro-type-reinterpret-cast,
+		cppcoreguidelines-pro-type-const-cast,
+		clang-analyzer-*,
+		cppcoreguidelines-*,
+		bugprone-*,
+		performance-*,
+		readability-non-const-parameter,
+		google-explicit-constructor,
+		-modernize-use-trailing-return-type,
+		-bugprone-exception-escape,
+		-cppcoreguidelines-pro-bounds-constant-array-index,
+		-cppcoreguidelines-avoid-magic-numbers,
+		-bugprone-easily-swappable-parameters'
+		
+		
+CheckOptions:
+		readability-identifier-naming.VariableCase: lower_case
+
+		readability-identifier-naming.PrivateMemberCase: lower_case
+		readability-identifier-naming.PrivateMemberSuffix: _
+		readability-identifier-naming.ProtectedMemberCase: lower_case
+		readability-identifier-naming.ProtectedMemberSuffix: _
+		readability-identifier-naming.PublicMemberCase: lower_case
+
+		readability-identifier-naming.ClassCase: CamelCase
+		readability-identifier-naming.StructCase: CamelCase
+		readability-identifier-naming.UnionCase: CamelCase
+		readability-identifier-naming.EnumCase: CamelCase
+
+		readability-identifier-naming.EnumConstantCase: UPPER_CASE
+		readability-identifier-naming.MacroDefinitionCase: UPPER_CASE
+		readability-identifier-naming.TypedefCase: CamelCase
+
+		readability-identifier-naming.NamespaceCase: lower_case
+
+		readability-identifier-naming.FunctionCase: camelCase
+		readability-identifier-naming.ClassMethodCase: camelCase
+		readability-identifier-naming.MethodCase: camelCase
+
+		readability-identifier-naming.StaticMethodCase: camelCase
+		readability-identifier-naming.StaticConstantCase: UPPER_CASE
+		readability-identifier-naming.StaticVariableCase: camelCase
+
+		readability-identifier-naming.ConstantCase: UPPER_CASE
+
+		readability-function-size.StatementThreshold: 50
+		readability-function-size.ParameterThreshold: 5
