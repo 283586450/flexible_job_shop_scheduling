@@ -20,6 +20,8 @@ namespace scheduling {
 
 class Problem
 {
+public:
+    [[nodiscard]] bool is_feasible() const;
 
 protected:
     std::vector<Job>                                job_list_;

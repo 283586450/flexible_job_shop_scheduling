@@ -7,8 +7,6 @@ namespace scheduling {
 
 class PM : public Task
 {
-
-
 protected:
     PMType       pm_type_;
     int          pm_index_;
